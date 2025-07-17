@@ -1,0 +1,21 @@
+{
+  "name": "WA-BOT",
+  "description": "Multidevice Whatsapp Bot",
+  "logo": "https://i.ibb.co/wFkjNGMj/61b1ec5e-37b8-45ff-b65f-9b8bf57461f0.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    }
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
