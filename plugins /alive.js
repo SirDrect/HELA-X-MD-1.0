@@ -1,5 +1,5 @@
-const { cmd, commands } = require('../lib/command')
-const config = require('../settings');
+const { cmd, commands } = require('./lib/command')
+const config = require('./settings');
 
 var amsg =''
 if(config.LANG === 'SI') amsg = 'බොට් ආරක්ෂිතව සජීවිකර ඇතිද නැද්ද පරීක්‍ෂා කරන්න.'
